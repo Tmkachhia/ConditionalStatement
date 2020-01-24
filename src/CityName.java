@@ -1,3 +1,5 @@
+import com.sun.deploy.net.proxy.WDefaultBrowserProxyConfig;
+
 import java.util.Scanner;
 
 public class CityName {
@@ -25,6 +27,8 @@ public class CityName {
                 case 'f':
                     System.out.println("Fatehpur");
                     break;
+                default:
+                    System.out.println("Entered Character is not recognised");
             }
         }
         };
